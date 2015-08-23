@@ -10,7 +10,7 @@ I uploaded this simply because it's useful to me. This is nothing more than seve
 ## Usage
 
 * Change the shebang to point to your PhantomJS binary
-* Optionally add this script to a location in your PATH variable for ease-of-us 
+* Optionally add this script to a location in your PATH variable for ease-of-use
 
 ```
 $ ./screenshot google.com
