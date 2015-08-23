@@ -4,7 +4,13 @@ Teeny CLI utility to take a quick screenshot of a webpage, powered by PhantomJS.
 ## Disclaimer
 I uploaded this simply because it's useful to me. This is nothing more than several lines of barely functioning code. Please feel free to extend it. I don't actually know Javascript. I also didn't even know you could declare PhantomJS as an interpreter with a shebang until a few days ago. Life is full of twists and turns. 
 
+## Prerequisites
+* PhantomJS
+
 ## Usage
+
+* Change the shebang to point to your PhantomJS binary
+* Optionally add this script to a location in your PATH variable for ease-of-us 
 
 ```
 $ ./screenshot google.com
