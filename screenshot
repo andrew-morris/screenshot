@@ -1,0 +1,10 @@
+#!/usr/local/bin/phantomjs
+
+var system = require('system');
+var args = system.args;
+
+var page = require('webpage').create();
+page.open('http://'+system.args[1]+'/', function() {
+		  page.render(system.args[1]+'.png');
+		    phantom.exit();
+		    });
